@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Williams Performance Friction - High-Performance Recyclable Brake Pads</title>
+    <meta name="description" content="Williams Performance Friction - The only company manufacturing 100% recyclable brake pads. Established 2002. Racing heritage with championship wins.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Fixed Navigation Bar -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#home">
+                    <img src="{{ url_for('static', filename='images/wpfri-logo-hq.png') }}" alt="Williams Performance Friction Logo" class="logo-img">
+                </a>
+                
+                <!-- Navigation links - Always visible -->
+                <div class="navbar-nav-container">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#technology">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#racing">Heritage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section hero-section">
+            <div class="container text-center">
+                <div class="hero-content">
+                    <h1 class="hero-title">Where High-Performance Meets Sustainability</h1>
+                    <p class="hero-subtitle">The world's only 100% recyclable brake pads, proven in championship racing</p>
+                    <a href="#products" class="btn btn-primary btn-lg mt-4">
+                        <i class="fas fa-cog me-2"></i>Discover Our Products
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="section-title">About Us</h2>
+                        <div class="section-content">
+                            <p class="lead">A third-generation family business founded by grandfather Dickson, Williams Performance Friction was established in 2002 and has been at the forefront of brake pad innovation for over two decades.</p>
+                            
+                            <p>Our family legacy in automotive excellence drives our mission: to create high-performance brake pads that don't compromise our planet's future. We are the only known company manufacturing 100% recyclable brake pads, pioneering a breakthrough that transforms how the automotive industry thinks about sustainability.</p>
+                            
+                            <p>While conventional brake pads typically end up in landfills due to their non-degradable friction materials, our innovative design allows every component to be fully recycled at end-of-life. This environmental responsibility doesn't come at the cost of performance – our brake pads deliver exceptional stopping power and reliability.</p>
+                            
+                            <p>Our reputation for quality and innovation has been earned through rigorous testing, continuous improvement, and proven success in competitive motorsports environments. When you choose Williams Performance Friction, you're choosing a company that believes performance and sustainability can coexist.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="section">
+            <div class="container">
+                <h2 class="section-title text-center">Products</h2>
+                <p class="text-center mb-5">Advanced friction technology meets eco-conscious design</p>
+                
+                
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 mx-auto mb-4">
+                        <div class="product-card product-card-featured">
+                            <div class="product-image">
+                                <img src="{{ url_for('static', filename='images/load-lock-system.png') }}" alt="Load & Lock System" class="img-fluid">
+                            </div>
+                            <h3>Load & Lock™ System <span class="patent-pending">(Patent Pending)</span></h3>
+                            <p class="product-tagline">The last brake shoe you'll ever touch</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check"></i> Shoe stays on truck</li>
+                                <li><i class="fas fa-check"></i> Friction material is recyclable</li>
+                                <li><i class="fas fa-check"></i> Reduced costs & increased uptime</li>
+                                <li><i class="fas fa-check"></i> Revolutionary swap system</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+
+        <!-- Technology Section -->
+        <section id="technology" class="section">
+            <div class="container">
+                <h2 class="section-title text-center">Technology</h2>
+                <p class="text-center mb-5">Revolutionary brake pad innovation that transforms performance and sustainability</p>
+                
+                <!-- Technology Hero -->
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div class="technology-hero">
+                            <h3 class="technology-title">100% Recyclable Brake Technology</h3>
+                            <p class="technology-subtitle">The world's first and only completely recyclable brake pad system, engineered for maximum performance and environmental responsibility. <strong>Patent Pending.</strong></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Load & Lock System Comparison -->
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="technology-comparison">
+                            <div class="comparison-header text-center mb-4">
+                                <h3>Traditional vs Load & Lock™ Technology</h3>
+                                <p>Revolutionary swap system that eliminates waste and maximizes efficiency</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-lg-5 col-md-6">
+                                    <div class="traditional-system">
+                                        <h4>Traditional Brake Shoe</h4>
+                                        <div class="system-image">
+                                            <div class="traditional-brake-visual">
+                                                <div class="brake-shoe traditional"></div>
+                                                <div class="waste-indicator">
+                                                    <i class="fas fa-times-circle"></i>
+                                                    <span>Entire shoe discarded</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="system-features traditional">
+                                            <li><i class="fas fa-times"></i> Complete replacement required</li>
+                                            <li><i class="fas fa-times"></i> Metal backing plate wasted</li>
+                                            <li><i class="fas fa-times"></i> Higher disposal costs</li>
+                                            <li><i class="fas fa-times"></i> Environmental impact</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-2 col-md-12 text-center">
+                                    <div class="comparison-arrow">
+                                        <i class="fas fa-arrow-right"></i>
+                                        <span>UPGRADE TO</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-5 col-md-6">
+                                    <div class="loadlock-system">
+                                        <h4>Load & Lock™ System <span class="patent-pending-small">(Patent Pending)</span></h4>
+                                        <div class="system-image">
+                                            <div class="loadlock-brake-visual">
+                                                <div class="brake-shoe loadlock">
+                                                    <div class="friction-material removable"></div>
+                                                </div>
+                                                <div class="swap-indicator">
+                                                    <i class="fas fa-recycle"></i>
+                                                    <span>Friction material only</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="system-features loadlock">
+                                            <li><i class="fas fa-check"></i> Friction material swapped only</li>
+                                            <li><i class="fas fa-check"></i> Backing plate reused indefinitely</li>
+                                            <li><i class="fas fa-check"></i> 100% recyclable materials</li>
+                                            <li><i class="fas fa-check"></i> Zero waste technology</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Technology Benefits -->
+                <div class="row mb-5">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="tech-benefit">
+                            <div class="benefit-icon">
+                                <i class="fas fa-recycle"></i>
+                            </div>
+                            <h4>100% Recyclable</h4>
+                            <p>Every component can be fully recycled, eliminating brake pad waste from landfills and reducing environmental impact.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="tech-benefit">
+                            <div class="benefit-icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <h4>Swap System</h4>
+                            <p>Revolutionary Load & Lock™ technology allows friction material replacement while reusing the metal backing plate indefinitely.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="tech-benefit">
+                            <div class="benefit-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4>Sustainable Performance</h4>
+                            <p>Championship-proven performance meets environmental responsibility, setting new industry standards for sustainable braking.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Technical Innovation -->
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="innovation-callout">
+                            <div class="callout-header">
+                                <i class="fas fa-lightbulb"></i>
+                                <h3>Innovation That Matters</h3>
+                            </div>
+                            <p class="mb-4">Williams Performance Friction is the only manufacturer in the world producing 100% recyclable brake pads. Our Load & Lock™ system represents a fundamental shift in brake technology—proving that high-performance and environmental responsibility can coexist.</p>
+                            <div class="innovation-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Recyclable Materials</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">0</span>
+                                    <span class="stat-label">Waste Generated</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">∞</span>
+                                    <span class="stat-label">Backing Plate Reuse</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Racing Heritage Section -->
+        <section id="racing" class="section">
+            <div class="container">
+                <h2 class="section-title text-center">Company Heritage</h2>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p class="racing-intro">"We race what we manufacture."</p>
+                        <p class="mb-5">Our commitment to performance is proven on the track, where our brake systems deliver championship-level reliability under the most demanding conditions.</p>
+                    </div>
+                </div>
+                
+                <!-- Racing Categories -->
+                <div class="row mb-5">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="racing-category">
+                            <div class="racing-category-image">
+                                <img src="{{ url_for('static', filename='images/racing-road.jpg') }}" alt="Road Racing" class="img-fluid">
+                                <div class="category-overlay">
+                                    <h4>Road Racing</h4>
+                                    <p>High-speed circuit competition</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="racing-category">
+                            <div class="racing-category-image">
+                                <img src="{{ url_for('static', filename='images/racing-openwheel.jpg') }}" alt="Open-Wheel Racing" class="img-fluid">
+                                <div class="category-overlay">
+                                    <h4>Open-Wheel</h4>
+                                    <p>Professional formula competition</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="racing-category">
+                            <div class="racing-category-image">
+                                <img src="{{ url_for('static', filename='images/racing-solo.jpg') }}" alt="Autocross Solo Racing" class="img-fluid">
+                                <div class="category-overlay">
+                                    <h4>Autocross / Solo</h4>
+                                    <p>Precision driving competition</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Racing Achievements -->
+                <div class="row mb-5">
+                    <div class="col-lg-6 mb-4">
+                        <div class="achievement-highlight">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4>CASC-OR Championship Involvement</h4>
+                            <p>CASC-OR involvement including sponsorship of the 2004 Mobil 1 Autoslalom Championship Series.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="achievement-highlight">
+                            <div class="achievement-icon">
+                                <i class="fas fa-flag-checkered"></i>
+                            </div>
+                            <h4>Ontario Touring GT Support</h4>
+                            <p>Support for the #22 Corvette (Malcolm Strachan) in the 2003 Ontario Touring GT Championship at Mosport (Trans-Am weekend support race).</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- View Gallery CTA -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="#gallery" class="btn btn-primary btn-lg">
+                            <i class="fas fa-images me-2"></i>View Gallery
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Company History Timeline -->
+                <div class="row mt-5" id="gallery">
+                    <div class="col-12">
+                        <h3 class="text-center mb-5" style="color: var(--red);">Company History</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2002</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-image">
+                                        <img src="{{ url_for('static', filename='images/history-2002-founding.jpg') }}" alt="Company Founded 2002" class="img-fluid">
+                                    </div>
+                                    <h4>Company Founded</h4>
+                                    <p>Williams Performance Friction established in Barrie, Ontario, with a vision to revolutionize brake pad technology.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-year">2003</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-image">
+                                        <img src="{{ url_for('static', filename='images/history-2003-corvette.jpg') }}" alt="2003 Corvette Support" class="img-fluid">
+                                    </div>
+                                    <h4>Racing Program Launch</h4>
+                                    <p>Program vehicles entered in Ontario Touring GT; support for #22 Corvette driven by Malcolm Strachan.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-year">2004</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-image">
+                                        <img src="{{ url_for('static', filename='images/history-2004-casc.jpg') }}" alt="2004 CASC Sponsorship" class="img-fluid">
+                                    </div>
+                                    <h4>Championship Sponsorship</h4>
+                                    <p>CASC-OR Mobil 1 Autoslalom Championship Series sponsored by Williams Performance Friction.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-year">2005–2010</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-image">
+                                        <img src="{{ url_for('static', filename='images/history-2005-expansion.jpg') }}" alt="2005-2010 Expansion" class="img-fluid">
+                                    </div>
+                                    <h4>Product Line Expansion</h4>
+                                    <p>Expansion of pad lines and significant growth in both street and track customer base.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-year">Today</div>
+                                <div class="timeline-content">
+                                    <div class="timeline-image">
+                                        <img src="{{ url_for('static', filename='images/history-today-recyclable.jpg') }}" alt="Today's Innovation" class="img-fluid">
+                                    </div>
+                                    <h4>Sustainable Innovation</h4>
+                                    <p>Recyclable pad initiative and limited production performance lines leading industry sustainability.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title text-center">Contact</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-form">
+                            <h3 class="text-center">Send us a Message</h3>
+                            
+                            <!-- Flash Messages -->
+                            {% with messages = get_flashed_messages(with_categories=true) %}
+                                {% if messages %}
+                                    {% for category, message in messages %}
+                                        <div class="alert alert-{{ 'danger' if category == 'error' else 'success' }} alert-dismissible fade show">
+                                            {{ message }}
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                                        </div>
+                                    {% endfor %}
+                                {% endif %}
+                            {% endwith %}
+                            
+                            <form method="POST" action="{{ url_for('contact') }}">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name *</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
