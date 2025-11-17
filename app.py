@@ -8,7 +8,7 @@ app.secret_key = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-producti
 @app.route('/')
 def index():
     """Main page route"""
-    return render_template('index.html')
+    return render_template('index.html', current_year=datetime.now().year)
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
@@ -37,7 +37,7 @@ def contact():
         
         return redirect(url_for('contact'))
     
-    return render_template('index.html', scroll_to='contact')
+    return render_template('index.html', scroll_to='contact', current_year=datetime.now().year)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
