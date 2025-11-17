@@ -38,5 +38,6 @@
 https://github.com/MiahMontgomery/WPFRI
 
 ## 🚀 Deployment
-- Current: Direct SCP to wpfri.ca (Contabo server)
-- Vercel: Configuration file created, ready to connect
+- Current: Render (wpfri.ca)
+- GitHub: https://github.com/MiahMontgomery/WPFRI
+- Auto-deploy: Connected to Render from GitHub
