@@ -22,10 +22,7 @@
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="#home">
-                    <div class="logo-text">
-                        <div class="logo-main">WPFRI</div>
-                        <div class="logo-subtitle">WILLIAMS PERFORMANCE FRICTION</div>
-                    </div>
+                    <img src="{{ url_for('static', filename='images/wpfri-logo-hq.png') }}" alt="Williams Performance Friction Logo" class="logo-img">
                 </a>
                 
                 <!-- Navigation links - Always visible -->
@@ -50,15 +47,6 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <!-- Social Media Icons -->
-                    <div class="social-icons">
-                        <a href="https://www.youtube.com/@williamsperformancefriction" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a href="https://www.instagram.com/williamsperformancefriction" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -67,7 +55,6 @@
     <main>
         <!-- Home Section -->
         <section id="home" class="section hero-section">
-            <div class="hero-background"></div>
             <div class="container text-center">
                 <div class="hero-content">
                     <h1 class="hero-title">Where High-Performance Meets Sustainability</h1>

@@ -51,31 +51,6 @@ body {
 .navbar-brand {
     display: flex;
     align-items: center;
-    text-decoration: none;
-}
-
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.logo-main {
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: var(--red);
-    line-height: 1;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.logo-subtitle {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--white);
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-top: 0.2rem;
 }
 
 .logo-img {
@@ -87,26 +62,6 @@ body {
 
 .navbar-nav-container {
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.social-icons {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-}
-
-.social-icon {
-    color: var(--white);
-    font-size: 1.5rem;
-    transition: all 0.3s ease;
-    text-decoration: none;
-}
-
-.social-icon:hover {
-    color: var(--red);
-    transform: translateY(-2px);
 }
 
 .navbar-nav {
@@ -167,24 +122,9 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: var(--black);
+    background: linear-gradient(135deg, var(--black) 0%, var(--dark-gray) 100%);
     text-align: center;
     position: relative;
-    overflow: hidden;
-}
-
-.hero-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('../images/IMG_1114.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    z-index: 1;
 }
 
 .hero-section::before {
@@ -194,8 +134,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%);
-    z-index: 1;
+    background: radial-gradient(circle at center, rgba(220, 38, 38, 0.1) 0%, transparent 70%);
     pointer-events: none;
 }
 
